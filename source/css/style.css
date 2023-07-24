@@ -1,0 +1,219 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-size: 16px;
+}
+.ft-600 {
+  font-weight: 600;
+}
+nav {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 1.5rem;
+  position: fixed;
+  width: 100%;
+}
+
+nav .menu-brand {
+  display: flex;
+}
+nav .menu-brand img {
+  cursor: pointer;
+}
+
+nav .menu-brand div:nth-child(1) {
+  margin-right: 2rem;
+}
+nav .search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-left: solid 1px #cccccc;
+  border-top: solid 1px #cccccc;
+  border-bottom: solid 1px #cccccc;
+  width: 100%;
+  max-width: 500px;
+  padding-left: 1rem;
+  border-radius: 40px;
+  box-shadow: inset 0 1px 2px #000;
+  cursor: text;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+nav .search-bar .search-btn {
+  display: flex;
+  background-color: #f8f8f8;
+  padding: 0.4rem 1rem;
+  border-left: solid 1px #cccccc;
+  border-right: solid 1px #cccccc;
+  border-radius: 0px 40px 40px 0px;
+  cursor: pointer;
+}
+nav .search-bar .search-btn:hover {
+  background-color: #f5f5f5;
+}
+
+nav .profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 130px;
+}
+nav .profile img {
+  cursor: pointer;
+}
+nav .profile .profile-icon {
+  height: 38px;
+  width: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: transparent;
+}
+nav .profile .profile-icon:hover {
+  background-color: #f5f5f5;
+  border-radius: 100%;
+}
+
+nav .profile .avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: auto;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  padding-top: calc(61.42px + 2rem);
+}
+
+main .watch-video {
+  display: flex;
+  flex-direction: column;
+  padding-right: 1.5rem;
+  width: 100%;
+  max-width: 950px;
+  /*   flex: 1;
+ */
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+main .watch-video .video-title p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+main .watch-video .video-info {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+main .watch-video .video-info .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .watch-video .video-info .channel,
+main .watch-video .video-info .video-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+main .watch-video .video-info .channel img {
+  margin-right: 0.5rem;
+}
+main .watch-video .video-info .channel .channel-info {
+  font-size: 14px;
+}
+main .watch-video .video-info .channel .channel-info p {
+  font-weight: 600;
+}
+main .watch-video .video-info .video-numbers {
+  margin-left: 2rem;
+}
+main .watch-video .video-info .video-numbers img {
+  cursor: pointer;
+}
+
+main .watch-video .video-info .video-numbers p {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+main .watch-video .video-info .subscribe button {
+  background-color: #cc0000;
+  display: block;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  margin-left: 1.5rem;
+  border: 0;
+  border-radius: 40px;
+  transition: all ease 200ms;
+}
+main .watch-video .video-info .subscribe button:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+  transition: all ease 200ms;
+}
+
+main .watch-video .video-description {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  font-size: 14px;
+}
+main .watch-video .video-description p:nth-child(1) {
+  margin-bottom: 0.5rem;
+}
+
+main .sidebar-list {
+  display: flex;
+  flex-direction: column;
+}
+
+main .sidebar-list .card {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+main .sidebar-list .card img {
+  border-radius: 8px;
+  margin-right: 0.5rem;
+}
+main .sidebar-list .card .card-info h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+main .sidebar-list .card .card-info p {
+  font-size: 12px;
+  margin-bottom: 0.5rem;
+}
+main .sidebar-list .card .card-info span {
+  font-size: 12px;
+}
